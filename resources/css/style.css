@@ -1,0 +1,201 @@
+html{
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+  border-bottom: 1px dotted lightgrey;
+}
+h1{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #3d3d3d;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+.creditor{
+  font-weight: 600;
+}
+.logo{
+  padding-left: 24px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+
+}
+.logo img {
+  height: 50px;
+}
+
+.logo p{
+  color: darkgray;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: Roboto;
+  letter-spacing: 2px;
+}
+
+.logo p em{
+  color: #3d3d3d;
+  font-weight: 600;
+}
+
+nav span{
+  padding-left: 1rem;
+  font-size: 1.25rem;
+}
+
+header nav{
+  padding-right: 24px;
+}
+
+.banner{
+  display: flex;
+  position: relative;
+  top: 64px;
+  align-items: center;
+  background-color: lightgrey;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.bannertext{
+  padding: 0 1.5rem;
+  width: 27%;
+}
+.bannertext h1,
+.bannertext h2{
+  padding-bottom: 1.5rem;
+  color: #3d3d3d;
+}
+.button{
+  background-color: #3d3d3d;
+  text-align: center;
+  padding: 1rem 0;
+  color: white;
+}
+.sidelist{
+  width: 40%;
+}
+.two{
+  width: 100%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  position: relative;
+  top: 64px;
+}
+
+.practice{
+  width: 60%;
+}
+
+.practice img{
+  padding: 32px 24px;
+  width: 94%;
+}
+.practicetext{
+  padding: 0 24px 32px 24px;
+}
+.side{
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+}
+.side img{
+  width: 35%;
+  padding: 1rem;
+  height: auto;
+}
+.sidetext p{
+  padding: 1rem 0;
+}
+.practicetext h1{
+  padding-bottom: 24px;
+}
+.practicetext h2{
+  padding-bottom: 1rem;
+}
+.creditor{
+  padding-top: 24px;
+}
+.three{
+  position: relative;
+  top: 64px;
+  width: 100%;
+  background-color: lightgrey;
+}
+.uppertext{
+  padding: 32px 0;
+  width: 100%;
+  text-align: center;
+}
+.fieldtext{
+  padding: 1rem 1rem 24px 1rem;
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.field{
+  width: 25%;
+  margin-right: 32px;
+  background-color: white;
+  margin-bottom: 32px;
+}
+.field:nth-child(3n+3){
+  margin-right: 0;
+}
+.field img{
+  width: 100%;
+}
+.fieldtext p{
+  padding-top: 0.5rem;
+}
+
+.four{
+  position: relative;
+  top: 64px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+}
+.practice video{
+  width: 92%;
+  padding: 0 24px 24px 24px;
+}
+
+footer{
+  position: relative;
+  top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 64px;
+  border-top: 1px dotted lightgrey;
+  padding: 16px 0 0 24px;
+}
+
+footer p a{
+  color: black;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+footer p{
+
+}
