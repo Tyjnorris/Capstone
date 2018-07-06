@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Colmar Academy</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+    <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
     <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
     <link href="resources/css/style.css" rel="stylesheet" type="text/css">
   </head>
@@ -11,9 +12,12 @@
     <header>
       <div class="logo">
         <img src="resources/images/ic-logo.svg" alt="logo">
-        <p><em>COLMAR</em>ACADEMY</p>
+        <img class="mobile" src="resources/images/ic-on-campus.svg" alt="on campus">
+        <img class="mobile" src="resources/images/ic-online.svg" alt="online">
+        <img class="mobile" src="resources/images/ic-login.svg" alt="login">
+        <p class="desktop"><em>COLMAR</em>ACADEMY</p>
       </div>
-      <nav>
+      <nav class="desktop" role="presentation">
         <span>On Campus</span>
         <span>Online</span>
         <span>or Companies</span>
@@ -31,17 +35,17 @@
       </div>
     </div>
     <div class="two">
-      <div class="practice">
-        <img src="resources/images/information-main.jpg">
+      <div class="practice desktop">
+        <img src="resources/images/information-main.jpg" alt="man reading">
         <div class="practicetext">
           <h1>It doesn't hurt to keep practicing</h1>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-          <p class="creditor">Emanuel, Sr Strategist at Hiring.com</p>
+          <p class="creditor" aria-label="author">Emanuel, Sr Strategist at Hiring.com</p>
         </div>
       </div>
       <div class="sidelist">
         <div class="side">
-          <img src="resources/images/information-orientation.jpg">
+          <img src="resources/images/information-orientation.jpg" alt="students walking around">
           <div class="sidetext">
             <h2>Orientation Date</h2>
             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -49,7 +53,7 @@
           </div>
         </div>
         <div class="side">
-          <img src="resources/images/information-campus.jpg">
+          <img src="resources/images/information-campus.jpg" alt="students studying a map">
           <div class="sidetext">
             <h2>Our Campus</h2>
             <p>Find which campus is close by you</p>
@@ -57,7 +61,7 @@
           </div>
         </div>
         <div class="side">
-          <img src="resources/images/information-guest-lecture.jpg">
+          <img src="resources/images/information-guest-lecture.jpg" alt="Oliver Sack">
           <div class="sidetext">
             <h2>Our Guest Lecture</h2>
             <p>Join a Keynote with Oliver Sack about music in medical treatment</p>
@@ -72,53 +76,63 @@
         <h1>Start Learning</h1>
       </div>
       <div class="container">
-        <div class="field">
-          <img src="resources/images/course-software.jpg">
+        <div class="field desktop">
+          <img src="resources/images/course-software.jpg" alt="Computers">
           <div class="fieldtext">
             <h2>Software Engineering</h2>
             <p>COURSES</p>
             <p>Web Developement, Mobile Developement, iOT, API's</p>
           </div>
         </div>
-        <div class="field">
-          <img src="resources/images/course-computer-art.jpg">
+        <div class="field desktop">
+          <img src="resources/images/course-computer-art.jpg" alt="A Mobile App">
           <div class="fieldtext">
             <h2>Computer Art</h2>
             <p>COURSES</p>
             <p>Imaging and Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
           </div>
         </div>
-        <div class="field">
-          <img src="resources/images/course-design.jpg">
+        <div class="field desktop">
+          <img src="resources/images/course-design.jpg" alt="Person taking a photgraph">
           <div class="fieldtext">
             <h2>Design</h2>
             <p>COURSES</p>
             <p>User Experience Design, User Reseach, Visual Design</p>
           </div>
         </div>
-        <div class="field">
-          <img src="resources/images/course-data.jpg">
+        <div class="field desktop">
+          <img src="resources/images/course-data.jpg" alt="Data on a computer">
           <div class="fieldtext">
             <h2>Data</h2>
             <p>COURSES</p>
             <p>Data Science, Big Data, SQL, Data Visualization</p>
           </div>
         </div>
-        <div class="field">
-          <img src="resources/images/course-business.jpg">
+        <div class="field desktop">
+          <img src="resources/images/course-business.jpg" alt="Chess Game">
           <div class="fieldtext">
             <h2>Business</h2>
             <p>COURSES</p>
             <p>Product Developement, Business Developement, Startup</p>
           </div>
         </div>
-        <div class="field">
-          <img src="resources/images/course-marketing.jpg">
+        <div class="field desktop">
+          <img src="resources/images/course-marketing.jpg" alt="Smart Watch">
           <div class="fieldtext">
             <h2>Marketing</h2>
             <p>COURSES</p>
             <p>Anaylitics, Content Marketing, Mobile Marketing</p>
           </div>
+        </div>
+        <div class="mobile">
+          <nav class="classmenu">
+            <h2>Software Engineering</h2>
+            <h2>Computer Art</h2>
+            <h2>Design</h2>
+            <h2>Data</h2>
+            <h2>Business</h2>
+            <h2>Marketing</h2>
+          </nav>
         </div>
       </div>
     </div>
@@ -131,21 +145,21 @@
           <video src="resources/videos/thesis.mp4" controls>
             video not supported
           </video>
-          <div class="practicetext">
+          <div class="practicetext desktop">
             <h2>Reimagine Urban</h2>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
           </div>
         </div>
-        <div class="sidelist">
+        <div class="sidelist desktop">
           <div class="side">
-            <img src="resources/images/thesis-fisma.jpg">
+            <img src="resources/images/thesis-fisma.jpg" alt="Person highlighting notes">
             <div class="sidetext">
               <h2>Fisma: Design and Prototype</h2>
               <p>Designer showcase of new prototype product</p>
             </div>
           </div>
           <div class="side">
-            <img src="resources/images/thesis-now-and-then.jpg">
+            <img src="resources/images/thesis-now-and-then.jpg" alt="Empire State Building">
             <div class="sidetext">
               <h2>Now and then</h2>
               <p>Research study about New York</p>
@@ -156,7 +170,7 @@
     </div>
     <footer>
       <p>&copy Colmar Academy. All rights reserved.</p>
-      <p><a href="#">Terms</a>      <a href="#">Privacy</a></p>
+      <p class="desktop"><a href="#">Terms</a>      <a href="#">Privacy</a></p>
     </footer>
 
 
