@@ -1,9 +1,9 @@
-html{
+html {
   font-family: Roboto, sans-serif;
   font-size: 16px;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,40 +14,40 @@ header{
   z-index: 2;
   border-bottom: 1px dotted lightgrey;
 }
-a{
+a {
   text-decoration: none;
 }
 .mobile {
   display: none;
 }
-@media only screen and (max-width: 700px){
-  .mobile{
+@media only screen and (max-width: 700px) {
+  .mobile {
     display: inline;
   }
-  .desktop{
+  .desktop {
     display: none;
   }
-  .logo{
+  .logo {
     justify-content: space-around;
     width: 100%;
     padding-left: 0;
   }
 
 }
-h1{
+h1 {
   font-size: 2.5rem;
   font-weight: 900;
   color: #3d3d3d;
 }
-h2{
+h2 {
   font-size: 1.5rem;
   font-weight: 700;
   color: #3d3d3d;
 }
-.creditor{
+.creditor {
   font-weight: 600;
 }
-.logo{
+.logo {
   padding-left: 24px;
   display: flex;
   height: 50px;
@@ -58,7 +58,7 @@ h2{
   height: 50px;
 }
 
-.logo p{
+.logo p {
   color: darkgray;
   font-size: 1.5rem;
   font-weight: 500;
@@ -66,21 +66,21 @@ h2{
   letter-spacing: 2px;
 }
 
-.logo p em{
+.logo p em {
   color: #3d3d3d;
   font-weight: 600;
 }
 
-nav span{
+nav span {
   padding-left: 1rem;
   font-size: 1.25rem;
 }
 
-header nav{
+header nav {
   padding-right: 24px;
 }
 
-.banner{
+.banner {
   display: flex;
   position: relative;
   top: 64px;
@@ -91,42 +91,42 @@ header nav{
   margin: 0;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .banner{
     display: block;
   }
 }
-.bannertext{
+.bannertext {
   padding: 0 1.5rem;
   width: 27%;
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .bannertext{
     width: auto;
     padding-bottom: 32px;
   }
 }
 .bannertext h1,
-.bannertext h2{
+.bannertext h2 {
   padding-bottom: 1.5rem;
   color: #3d3d3d;
 }
-.button{
+.button {
   background-color: #3d3d3d;
   text-align: center;
   padding: 1rem 0;
   color: white;
 }
-.sidelist{
+.sidelist {
   width: 40%;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .sidelist{
     width: 100%;
   }
 }
-.two{
+.two {
   width: 100%;
   display: flex;
   background-color: white;
@@ -135,78 +135,78 @@ header nav{
   top: 64px;
 }
 
-.practice{
+.practice {
   width: 60%;
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .practice{
     width: 100%;
   }
 }
 
-.practice img{
+.practice img {
   padding: 32px 24px;
   width: 94%;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .practice img{
     width: 100%;
     padding: 0 0 32px 0;
   }
 }
-.practicetext{
+.practicetext {
   padding: 0 24px 32px 24px;
 }
-.side{
+.side {
   display: flex;
   align-items: center;
   border: 1px solid lightgrey;
 }
-.side img{
+.side img {
   width: 35%;
   padding: 1rem;
   height: auto;
 }
-.sidetext p{
+.sidetext p {
   padding: 1rem 0;
 }
-.practicetext h1{
+.practicetext h1 {
   padding-bottom: 24px;
 }
-.practicetext h2{
+.practicetext h2 {
   padding-bottom: 1rem;
 }
-.creditor{
+.creditor {
   padding-top: 24px;
 }
-.three{
+.three {
   position: relative;
   top: 64px;
   width: 100%;
   background-color: lightgrey;
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .three{
     background-color: white;
   }
 }
 
-.uppertext{
+.uppertext {
   padding: 32px 0;
   width: 100%;
   text-align: center;
 }
-.fieldtext{
+.fieldtext {
   padding: 1rem 1rem 24px 1rem;
 }
-.container{
+.container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .container{
     justify-content: flex-start;
     display: block;
@@ -214,49 +214,49 @@ header nav{
   }
 }
 
-.classmenu h2{
+.classmenu h2 {
   padding: 1rem 0 1.5rem 1rem;
   margin: 0.5rem 1rem;
   background-color: lightgrey;
   width: auto;
 
 }
-.field{
+.field {
   width: 25%;
   margin-right: 32px;
   background-color: white;
   margin-bottom: 32px;
 }
-.field:nth-child(3n+3){
+.field:nth-child(3n+3) {
   margin-right: 0;
 }
-.field img{
+.field img {
   width: 100%;
 }
-.fieldtext p{
+.fieldtext p {
   padding-top: 0.5rem;
 }
 
-.four{
+.four {
   position: relative;
   top: 64px;
 }
-.bottom{
+.bottom {
   display: flex;
   align-items: center;
 }
-.practice video{
+.practice video {
   width: 94%;
   padding: 0 24px 24px 24px;
 }
 
-@media only screen and (max-width: 700px){
-  .practice video{
+@media only screen and (max-width: 700px) {
+  .practice video {
     width: 100%;
     padding: 0 0 24px 0;
   }
 }
-footer{
+footer {
   position: relative;
   top: 64px;
   display: flex;
@@ -267,14 +267,14 @@ footer{
   padding: 16px 0 0 24px;
 }
 
-footer p a{
+footer p a {
   color: black;
   text-decoration: none;
   padding-right: 10px;
 }
 
-@media only screen and (max-width: 700px){
-  footer{
+@media only screen and (max-width: 700px) {
+  footer {
     padding: 1rem 0 1rem 1rem;
     height: auto;
 }
